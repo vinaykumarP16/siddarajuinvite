@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { AiTwotoneHeart } from 'react-icons/ai';
 import { BiTime } from 'react-icons/bi';
 import { GiDiamondRing, GiLinkedRings } from 'react-icons/gi';
 import { GoLocation } from 'react-icons/go';
@@ -10,10 +11,11 @@ export default function App() {
   return (
     <div>
       <h1>Marriage invitation</h1>
+
       <p>
         {' '}
-        <GiDiamondRing /> Deepa S weds <GiLinkedRings /> Jagadhish T{' '}
-        <GiDiamondRing />{' '}
+        <AiTwotoneHeart />
+        Deepa S weds <GiLinkedRings /> Jagadhish T <AiTwotoneHeart />
       </p>
       <p>
         {' '}
